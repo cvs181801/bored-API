@@ -17,6 +17,11 @@ p {
     text-align: center;
 }
 
+.photocredit {
+    font-size: .5rem;
+    text-align: right;
+}
+
 .pattern {
     width: 1.5em;
     height: .5em;

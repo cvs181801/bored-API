@@ -7,7 +7,7 @@ let type = document.createElement("p");
 let costAssociated = document.createElement("p");
 
 button.addEventListener("click", function(e) {
-    fetch("https://apis.scrimba.com/bored/api/activity")
+    fetch("http://www.boredapi.com/api/activity/")  //https://apis.scrimba.com/bored/api/activity these are added to scrimba platform FYI
     .then(res => res.json())
     .then(data => {
         activity.textContent = "";
