@@ -1,0 +1,28 @@
+:root {
+    --ff-main: 'Quicksand', sans-serif;
+    --tomato-red: rgb(247, 42, 6);
+}
+
+body {
+    background-image: linear-gradient(250deg, #6B7E8C, #C0C0FF, #D9D9FF, #D9FFD9, #A7FFA7);
+    color: var(--tomato-red);
+    font-family: var(--ff-main);
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.image {
+    background-color: gray;
+    background-image: url(/Users/casvalkyriespicer/Documents/GitHub/bored-API/pics/bot.jpeg);
+    max-width: 30vw;
+    max-height: 30vh;
+    opacity: 0.8;
+    background-position: center;
+}
+
