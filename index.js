@@ -1,17 +1,22 @@
 //grab elements from DOM
 
 const boredDiv = document.querySelector(".activity");
+const button = document.querySelector(".image__newactivitybtn");
+let activity = document.createElement("p");
+let type = document.createElement("p");
+let costAssociated = document.createElement("p");
 
-fetch("https://apis.scrimba.com/bored/api/activity")
+button.addEventListener("click", function(e) {
+    fetch("https://apis.scrimba.com/bored/api/activity")
     .then(res => res.json())
     .then(data => {
-        let activity = document.createElement("p");
+        activity.textContent = "";
+        type.textContent = "";
+        costAssociated.textContent = "";
         activity.textContent = `Activity: ${data.activity}`;
         boredDiv.append(activity);
-        let type = document.createElement("p");
         type.textContent = `Type: ${data.type}`;
         boredDiv.append(type);
-        let costAssociated = document.createElement("p");
         if (`${data.price}` == 0) {
             costAssociated.textContent = `Does it cost $$$?: No`;
         } else {
@@ -19,4 +24,6 @@ fetch("https://apis.scrimba.com/bored/api/activity")
         }
         boredDiv.append(costAssociated);
     });
+
+})
 

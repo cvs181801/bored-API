@@ -17,6 +17,15 @@ p {
     text-align: center;
 }
 
+.pattern {
+    width: 1.5em;
+    height: .5em;
+    border-radius: 7px;
+    background-color: grey;
+    margin: 10em;
+    /*border: 2px solid var(--tomato-red);*/
+}
+
 img {
     /*background-color: #808080;
     background-image: url(/Users/casvalkyriespicer/Documents/GitHub/bored-API/pics/bot.jpeg);*/
@@ -54,5 +63,6 @@ button {
 }*/
    button {
        font-size: 1rem;
+       margin-right: 2em;
    }
 }
