@@ -1,6 +1,8 @@
 :root {
     --ff-main: 'Quicksand', sans-serif;
     --tomato-red: rgb(247, 42, 6);
+    --light-tomato: rgb(250, 215, 209);
+    
 }
 
 body {
@@ -10,6 +12,8 @@ body {
     height: 100vh;
     margin: 0 auto;
     text-align: center;
+    justify-content: center;
+    align-items:  center;
 }
 
 p {
@@ -50,6 +54,27 @@ button {
     font-family: inherit;  
     margin-right: .5em;
     cursor: pointer;
+    transition: transform 250ms;
+}
+
+button:hover {
+    background-color: var(--light-tomato);
+    transform: scale(1.1);
+}
+
+.bg-layer {
+    background-image: url(/Users/casvalkyriespicer/Documents/GitHub/bored-API/pics/memphisnoodle.png);
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background-size: contain;
+    opacity: .8;
+   /* background-color: #404040;
+    background-blend-mode: multiply;*/
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    align-items:  center;
 }
 
 .BtnContainer {

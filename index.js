@@ -22,7 +22,7 @@ button.addEventListener("click", function(e) {
         activity.textContent = `Activity: ${data.activity}`;
         boredDiv.append(activity);
         type.textContent = `Type: ${data.type}`;
-        boredDiv.append(type);
+        boredDiv.append(type); 
         if (`${data.price}` == 0) {
             costAssociated.textContent = `Does it cost $$$?: No`;
         } else {
