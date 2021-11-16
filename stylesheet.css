@@ -22,6 +22,10 @@ p {
     font-weight: 700;
 }
 
+.activity {
+    text-shadow: 4px 5px var(--light-tomato);
+}
+
 .photocredit {
     font-size: .5rem;
     text-align: right;
@@ -66,8 +70,6 @@ button:hover {
     z-index: 2;
     background-size: contain;
     opacity: .8;
-    box-shadow: 5px 5px 5px yellowgreen;
-    border: 2px solid black;
     text-align: center;
     justify-content: center;
     align-items:  center;
