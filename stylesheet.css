@@ -19,6 +19,7 @@ body {
 p {
     font-size: 3rem;
     text-align: center;
+    font-weight: 700;
 }
 
 .photocredit {
@@ -31,13 +32,9 @@ p {
     height: .5em;
     border-radius: 7px;
     background-color: grey;
-    
-    /*border: 2px solid var(--tomato-red);*/
 }
 
 img {
-    /*background-color: #808080;
-    background-image: url(/Users/casvalkyriespicer/Documents/GitHub/bored-API/pics/bot.jpeg);*/
     max-width: 40vw;
     max-height: 40vh;
     border: 2px solid darkgrey;
@@ -63,7 +60,7 @@ button:hover {
 }
 
 .bg-layer {
-    background-image: url(/Users/casvalkyriespicer/Documents/GitHub/bored-API/pics/memphisnoodle.png);
+    background-image: url(./pics/memphisnoodle.png);
     width: 100vw;
     height: 100vh;
     z-index: 2;
@@ -86,11 +83,10 @@ button:hover {
 
 @media (max-width: 600px) {
 
-/*.BtnContainer {
-    align-items: auto;
-    justify-content: auto;
-    text-align: left;
-}*/
+    p {
+        font-size: 2rem;
+        padding: .5em;
+    }
    button {
        font-size: 1rem;
        margin-right: 2em;
