@@ -66,8 +66,7 @@ button:hover {
     z-index: 2;
     background-size: contain;
     opacity: .8;
-   /* background-color: #404040;
-    background-blend-mode: multiply;*/
+    box-shadow: 5px 5px 5px yellowgreen;
     border: 2px solid black;
     text-align: center;
     justify-content: center;
