@@ -19,7 +19,7 @@ button.addEventListener("click", function(e) {
     activity.textContent = "One moment, let me search the web for an activity..."
     boredDiv.append(activity);
     
-        fetch("http://www.boredapi.com/api/activity/")  //https://apis.scrimba.com/bored/api/activity these are added to scrimba platform FYI
+        fetch("https://apis.scrimba.com/bored/api/activity")  // http://www.boredapi.com/api/activity/  these are added to scrimba platform FYI
         .then(res => res.json())
         .then(data => {
             buttonContainer.style.marginTop = "auto";
